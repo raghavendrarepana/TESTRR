@@ -1,0 +1,54 @@
+1.Open VMware work Station
+2.Click on Create a New Virtual Machine
+3.select typicaly recomended and click next
+4.click on Installer disc image and browser from your laptop and select that RHEL Image
+5.Select I will Install OS later and click on next
+6.Guest Operating Sysytem select Linux and linux version click next
+7.specify location for VMs and click next
+8.30 GB & Single file
+9.customize H/W - 4000 Close & Finish
+10.Edit Virtual machine setting
+11.Hardware CD/DVD Drive select click at power on and Use ISO Image from your laptop & OK
+12.Edit Virtual machine setting
+13.Hardware Network adaptor -- n/w connection -- select bridged & OK
+14.Power on VM 
+15.Click on "test this media & install 
+16.select Englick & next
+17.Installation summary
+18.change geographic location to India done
+19.Installation destination --storage configuration --custom & click on done 
+20.manul partition & LVM and Standarded Partiton--select Standarded Partion & add and give 
+/ 15GB done & 
+/boot 1000 & 
+/home 1024 & 
+swap 3000
+click on done & accept chnages
+21.Installation source -- software selection --server with GUI --and done
+22.KDUMP -- uncheck enable KDUMP & done
+23.Network & hostanme --eathernet ON 
+ verify--configuration --
+24.create root password as test123
+25.create user --raghav/test123
+26.click begion installation
+27.Click on rebook system
+28.Accept Licence agreement
+29.Verify network connected
+30.Click on Finish Configurations
+31.Open CLI
+32.# cd /etc/yum.repos.d/
+33.# pwd
+34.# ls
+35.# python --version
+36.# clear
+37.# pwd
+38.open chrome docs.ansible.com
+39.Click Installation --prerequisites --Click on EPEL
+40.# yum install subscription-manager repos --enable codeready-builder-for-rhel-8-$(arch)-rpms
+dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+41.# ansible --version
+42.# yum install ansible -y
+43.# ansible --version
+44.# clear
+45.# cd /etc/ansible
+46.# ls
+
